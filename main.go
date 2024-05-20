@@ -3,16 +3,16 @@ package main
 import (
 	"fmt"
 
-	"github.com/matiasmorenoiglesias/aprendiendo-go/conditionals"
-	"github.com/matiasmorenoiglesias/aprendiendo-go/functions"
+	"github.com/matiasmorenoiglesias/aprendiendo-go/condicionales"
+	"github.com/matiasmorenoiglesias/aprendiendo-go/funciones"
 )
 
 
 func main(){
-	status, value := functions.ConvertIntToStr(15)
+	status, value := funciones.ConvertIntToStr(15)
 	if status {
 		fmt.Println("El valor es",value)
 	}
-	conditionals.RunIf()
-	conditionals.RunIfElse()
+	condicionales.RunIf()
+	condicionales.RunIfElse()
 }
