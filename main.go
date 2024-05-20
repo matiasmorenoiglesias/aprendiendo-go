@@ -7,5 +7,8 @@ import (
 
 func main(){
 	variables.ShowIntegers()
+	variables.ShowBooleans()
+	variables.ShowStrings()
+	variables.ShowFloats()
 	// fmt.Println("Hello World");
 }

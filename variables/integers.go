@@ -3,6 +3,9 @@ package variables
 import "fmt"
 
 func ShowIntegers(){
+	fmt.Println("--------------------")
+	fmt.Println("Integers")
+	fmt.Println("--------------------")
 	var integer int
 	intde32 := int32(10)
 	intde64 := int64(100)
