@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/matiasmorenoiglesias/aprendiendo-go/conditionals"
 	"github.com/matiasmorenoiglesias/aprendiendo-go/functions"
 )
 
@@ -11,4 +13,6 @@ func main(){
 	if status {
 		fmt.Println("El valor es",value)
 	}
+	conditionals.RunIf()
+	conditionals.RunIfElse()
 }
