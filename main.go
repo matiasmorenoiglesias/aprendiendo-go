@@ -1,14 +1,14 @@
 package main
 
 import (
-	//"fmt"
-	"github.com/matiasmorenoiglesias/aprendiendo-go/variables"
+	"fmt"
+	"github.com/matiasmorenoiglesias/aprendiendo-go/functions"
 )
 
+
 func main(){
-	variables.ShowIntegers()
-	variables.ShowBooleans()
-	variables.ShowStrings()
-	variables.ShowFloats()
-	// fmt.Println("Hello World");
+	status, value := functions.ConvertIntToStr(15)
+	if status {
+		fmt.Println("El valor es",value)
+	}
 }
