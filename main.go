@@ -10,5 +10,5 @@ import (
 
 
 func main(){
-	funciones.LlamarClosure()
+	funciones.Exponencia(5)
 }
