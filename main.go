@@ -1,8 +1,14 @@
 package main
 
-import "github.com/matiasmorenoiglesias/aprendiendo-go/ejercicios"
+import (
+	//"fmt"
+
+	//"github.com/matiasmorenoiglesias/aprendiendo-go/ejercicios"
+	//"github.com/matiasmorenoiglesias/aprendiendo-go/files"
+	"github.com/matiasmorenoiglesias/aprendiendo-go/funciones"
+)
 
 
 func main(){
-	ejercicios.RunEjercicio02()
+	funciones.LlamarClosure()
 }
