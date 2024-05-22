@@ -13,7 +13,7 @@ func MuestroSlices(){
 }
 
 func Capacidad(){
-	elements := make([]int, 0, 0)
+	elements := make([]int, 0, 1)
 	fmt.Printf("len: %d, cap: %d.\n", len(elements), cap(elements))
 	fmt.Println("Datos:", elements)
 
