@@ -5,7 +5,8 @@ import (
 
 	//"github.com/matiasmorenoiglesias/aprendiendo-go/ejercicios"
 	//"github.com/matiasmorenoiglesias/aprendiendo-go/files"
-	"github.com/matiasmorenoiglesias/aprendiendo-go/arrays_slices"
+	//"github.com/matiasmorenoiglesias/aprendiendo-go/arrays_slices"
+	"github.com/matiasmorenoiglesias/aprendiendo-go/mapas"
 	//"github.com/matiasmorenoiglesias/aprendiendo-go/funciones"
 )
 
@@ -13,5 +14,6 @@ import (
 func main(){
 	//arrays_slices.MuestroArreglo()
 	//arrays_slices.MuestroSlices()
-	arrays_slices.Capacidad()
+	//arrays_slices.Capacidad()
+	mapas.MostrarMapas()
 }
